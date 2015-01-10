@@ -1,0 +1,526 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'c:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 warn package.json flux@0.0.0 No description
+5 warn package.json flux@0.0.0 No repository field.
+6 warn package.json flux@0.0.0 No README data
+7 verbose readDependencies using package.json deps
+8 verbose install where, deps [ 'z:\\Dropbox\\GIT\\ReactFlux',
+8 verbose install   [ 'gulp', 'gulp-browserify', 'gulp-concat', 'react', 'reactify' ] ]
+9 info preinstall flux@0.0.0
+10 verbose readDependencies using package.json deps
+11 verbose cache add [ 'gulp@*', null ]
+12 verbose cache add name=undefined spec="gulp@*" args=["gulp@*",null]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: 'gulp@*',
+13 verbose parsed url   path: 'gulp@*',
+13 verbose parsed url   href: 'gulp@*' }
+14 verbose cache add [ 'gulp-browserify@*', null ]
+15 verbose cache add name=undefined spec="gulp-browserify@*" args=["gulp-browserify@*",null]
+16 verbose parsed url { protocol: null,
+16 verbose parsed url   slashes: null,
+16 verbose parsed url   auth: null,
+16 verbose parsed url   host: null,
+16 verbose parsed url   port: null,
+16 verbose parsed url   hostname: null,
+16 verbose parsed url   hash: null,
+16 verbose parsed url   search: null,
+16 verbose parsed url   query: null,
+16 verbose parsed url   pathname: 'gulp-browserify@*',
+16 verbose parsed url   path: 'gulp-browserify@*',
+16 verbose parsed url   href: 'gulp-browserify@*' }
+17 verbose cache add [ 'gulp-concat@*0', null ]
+18 verbose cache add name=undefined spec="gulp-concat@*0" args=["gulp-concat@*0",null]
+19 verbose parsed url { protocol: null,
+19 verbose parsed url   slashes: null,
+19 verbose parsed url   auth: null,
+19 verbose parsed url   host: null,
+19 verbose parsed url   port: null,
+19 verbose parsed url   hostname: null,
+19 verbose parsed url   hash: null,
+19 verbose parsed url   search: null,
+19 verbose parsed url   query: null,
+19 verbose parsed url   pathname: 'gulp-concat@*0',
+19 verbose parsed url   path: 'gulp-concat@*0',
+19 verbose parsed url   href: 'gulp-concat@*0' }
+20 verbose cache add [ 'react@*', null ]
+21 verbose cache add name=undefined spec="react@*" args=["react@*",null]
+22 verbose parsed url { protocol: null,
+22 verbose parsed url   slashes: null,
+22 verbose parsed url   auth: null,
+22 verbose parsed url   host: null,
+22 verbose parsed url   port: null,
+22 verbose parsed url   hostname: null,
+22 verbose parsed url   hash: null,
+22 verbose parsed url   search: null,
+22 verbose parsed url   query: null,
+22 verbose parsed url   pathname: 'react@*',
+22 verbose parsed url   path: 'react@*',
+22 verbose parsed url   href: 'react@*' }
+23 verbose cache add [ 'reactify@*', null ]
+24 verbose cache add name=undefined spec="reactify@*" args=["reactify@*",null]
+25 verbose parsed url { protocol: null,
+25 verbose parsed url   slashes: null,
+25 verbose parsed url   auth: null,
+25 verbose parsed url   host: null,
+25 verbose parsed url   port: null,
+25 verbose parsed url   hostname: null,
+25 verbose parsed url   hash: null,
+25 verbose parsed url   search: null,
+25 verbose parsed url   query: null,
+25 verbose parsed url   pathname: 'reactify@*',
+25 verbose parsed url   path: 'reactify@*',
+25 verbose parsed url   href: 'reactify@*' }
+26 verbose cache add name="gulp" spec="*" args=["gulp","*"]
+27 verbose parsed url { protocol: null,
+27 verbose parsed url   slashes: null,
+27 verbose parsed url   auth: null,
+27 verbose parsed url   host: null,
+27 verbose parsed url   port: null,
+27 verbose parsed url   hostname: null,
+27 verbose parsed url   hash: null,
+27 verbose parsed url   search: null,
+27 verbose parsed url   query: null,
+27 verbose parsed url   pathname: '*',
+27 verbose parsed url   path: '*',
+27 verbose parsed url   href: '*' }
+28 verbose addNamed [ 'gulp', '*' ]
+29 verbose addNamed [ null, '*' ]
+30 verbose cache add name="gulp-browserify" spec="*" args=["gulp-browserify","*"]
+31 verbose parsed url { protocol: null,
+31 verbose parsed url   slashes: null,
+31 verbose parsed url   auth: null,
+31 verbose parsed url   host: null,
+31 verbose parsed url   port: null,
+31 verbose parsed url   hostname: null,
+31 verbose parsed url   hash: null,
+31 verbose parsed url   search: null,
+31 verbose parsed url   query: null,
+31 verbose parsed url   pathname: '*',
+31 verbose parsed url   path: '*',
+31 verbose parsed url   href: '*' }
+32 verbose addNamed [ 'gulp-browserify', '*' ]
+33 verbose addNamed [ null, '*' ]
+34 verbose cache add name="gulp-concat" spec="*0" args=["gulp-concat","*0"]
+35 verbose parsed url { protocol: null,
+35 verbose parsed url   slashes: null,
+35 verbose parsed url   auth: null,
+35 verbose parsed url   host: null,
+35 verbose parsed url   port: null,
+35 verbose parsed url   hostname: null,
+35 verbose parsed url   hash: null,
+35 verbose parsed url   search: null,
+35 verbose parsed url   query: null,
+35 verbose parsed url   pathname: '*0',
+35 verbose parsed url   path: '*0',
+35 verbose parsed url   href: '*0' }
+36 verbose addNamed [ 'gulp-concat', '*0' ]
+37 verbose addNamed [ null, null ]
+38 verbose cache add name="react" spec="*" args=["react","*"]
+39 verbose parsed url { protocol: null,
+39 verbose parsed url   slashes: null,
+39 verbose parsed url   auth: null,
+39 verbose parsed url   host: null,
+39 verbose parsed url   port: null,
+39 verbose parsed url   hostname: null,
+39 verbose parsed url   hash: null,
+39 verbose parsed url   search: null,
+39 verbose parsed url   query: null,
+39 verbose parsed url   pathname: '*',
+39 verbose parsed url   path: '*',
+39 verbose parsed url   href: '*' }
+40 verbose addNamed [ 'react', '*' ]
+41 verbose addNamed [ null, '*' ]
+42 verbose cache add name="reactify" spec="*" args=["reactify","*"]
+43 verbose parsed url { protocol: null,
+43 verbose parsed url   slashes: null,
+43 verbose parsed url   auth: null,
+43 verbose parsed url   host: null,
+43 verbose parsed url   port: null,
+43 verbose parsed url   hostname: null,
+43 verbose parsed url   hash: null,
+43 verbose parsed url   search: null,
+43 verbose parsed url   query: null,
+43 verbose parsed url   pathname: '*',
+43 verbose parsed url   path: '*',
+43 verbose parsed url   href: '*' }
+44 verbose addNamed [ 'reactify', '*' ]
+45 verbose addNamed [ null, '*' ]
+46 silly lockFile 51046861-gulp gulp@*
+47 verbose lock gulp@* C:\Users\iluxa_000\AppData\Roaming\npm-cache\51046861-gulp.lock
+48 silly lockFile 2f84a5e9-gulp-browserify gulp-browserify@*
+49 verbose lock gulp-browserify@* C:\Users\iluxa_000\AppData\Roaming\npm-cache\2f84a5e9-gulp-browserify.lock
+50 silly lockFile 091eea43-gulp-concat-0 gulp-concat@*0
+51 verbose lock gulp-concat@*0 C:\Users\iluxa_000\AppData\Roaming\npm-cache\091eea43-gulp-concat-0.lock
+52 silly lockFile 7369d070-react react@*
+53 verbose lock react@* C:\Users\iluxa_000\AppData\Roaming\npm-cache\7369d070-react.lock
+54 silly lockFile 800a638d-reactify reactify@*
+55 verbose lock reactify@* C:\Users\iluxa_000\AppData\Roaming\npm-cache\800a638d-reactify.lock
+56 silly addNameRange { name: 'gulp', range: '*', hasData: false }
+57 silly addNameRange { name: 'react', range: '*', hasData: false }
+58 silly addNameRange { name: 'reactify', range: '*', hasData: false }
+59 silly addNameRange { name: 'gulp-browserify', range: '*', hasData: false }
+60 info addNameTag [ 'gulp-concat', '*0' ]
+61 verbose request where is /gulp
+62 verbose request registry https://registry.npmjs.org/
+63 verbose request id b96cbce1f0092a1b
+64 verbose url raw /gulp
+65 verbose url resolving [ 'https://registry.npmjs.org/', './gulp' ]
+66 verbose url resolved https://registry.npmjs.org/gulp
+67 verbose request where is https://registry.npmjs.org/gulp
+68 info trying registry request attempt 1 at 00:30:59
+69 verbose etag "1VHLVOHK4R42EV3R9Y897709F"
+70 http GET https://registry.npmjs.org/gulp
+71 verbose request where is /reactify
+72 verbose request registry https://registry.npmjs.org/
+73 verbose url raw /reactify
+74 verbose url resolving [ 'https://registry.npmjs.org/', './reactify' ]
+75 verbose url resolved https://registry.npmjs.org/reactify
+76 verbose request where is https://registry.npmjs.org/reactify
+77 info trying registry request attempt 1 at 00:30:59
+78 verbose etag "2WOOSBFGOSOKWKS337QI6XKR0"
+79 http GET https://registry.npmjs.org/reactify
+80 verbose request where is /react
+81 verbose request registry https://registry.npmjs.org/
+82 verbose url raw /react
+83 verbose url resolving [ 'https://registry.npmjs.org/', './react' ]
+84 verbose url resolved https://registry.npmjs.org/react
+85 verbose request where is https://registry.npmjs.org/react
+86 info trying registry request attempt 1 at 00:30:59
+87 verbose etag "BSYVO92WDX9X09UZFYCB2AR4"
+88 http GET https://registry.npmjs.org/react
+89 verbose request where is /gulp-browserify
+90 verbose request registry https://registry.npmjs.org/
+91 verbose url raw /gulp-browserify
+92 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-browserify' ]
+93 verbose url resolved https://registry.npmjs.org/gulp-browserify
+94 verbose request where is https://registry.npmjs.org/gulp-browserify
+95 info trying registry request attempt 1 at 00:30:59
+96 verbose etag "6YVYDWKSCDG0GJOXPA7D6RUDU"
+97 http GET https://registry.npmjs.org/gulp-browserify
+98 verbose request where is /gulp-concat
+99 verbose request registry https://registry.npmjs.org/
+100 verbose url raw /gulp-concat
+101 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-concat' ]
+102 verbose url resolved https://registry.npmjs.org/gulp-concat
+103 verbose request where is https://registry.npmjs.org/gulp-concat
+104 info trying registry request attempt 1 at 00:30:59
+105 verbose etag "DEEX7VE609AWMJ1OJWYX16D25"
+106 http GET https://registry.npmjs.org/gulp-concat
+107 http 200 https://registry.npmjs.org/gulp-concat
+108 silly registry.get cb [ 200,
+108 silly registry.get   { date: 'Thu, 01 Jan 2015 22:30:46 GMT',
+108 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+108 silly registry.get     etag: '"4PR2CFRAC3MXRMEFNR93Z6XCR"',
+108 silly registry.get     'content-type': 'application/json',
+108 silly registry.get     'cache-control': 'max-age=60',
+108 silly registry.get     'content-length': '30288',
+108 silly registry.get     'accept-ranges': 'bytes',
+108 silly registry.get     via: '1.1 varnish',
+108 silly registry.get     age: '0',
+108 silly registry.get     'x-served-by': 'cache-lcy1123-LCY',
+108 silly registry.get     'x-cache': 'MISS',
+108 silly registry.get     'x-cache-hits': '0',
+108 silly registry.get     'x-timer': 'S1420151446.599243,VS0,VE165',
+108 silly registry.get     vary: 'Accept',
+108 silly registry.get     'keep-alive': 'timeout=10, max=50',
+108 silly registry.get     connection: 'Keep-Alive' } ]
+109 silly lockFile 091eea43-gulp-concat-0 gulp-concat@*0
+110 silly lockFile 091eea43-gulp-concat-0 gulp-concat@*0
+111 http 304 https://registry.npmjs.org/gulp-browserify
+112 silly registry.get cb [ 304,
+112 silly registry.get   { date: 'Thu, 01 Jan 2015 22:30:46 GMT',
+112 silly registry.get     server: 'Apache',
+112 silly registry.get     via: '1.1 varnish',
+112 silly registry.get     'last-modified': 'Thu, 01 Jan 2015 22:30:46 GMT',
+112 silly registry.get     'cache-control': 'max-age=60',
+112 silly registry.get     etag: '"6YVYDWKSCDG0GJOXPA7D6RUDU"',
+112 silly registry.get     age: '0',
+112 silly registry.get     'x-served-by': 'cache-lcy1121-LCY',
+112 silly registry.get     'x-cache': 'MISS',
+112 silly registry.get     'x-cache-hits': '0',
+112 silly registry.get     'x-timer': 'S1420151446.583516,VS0,VE349',
+112 silly registry.get     vary: 'Accept',
+112 silly registry.get     'content-length': '0',
+112 silly registry.get     'keep-alive': 'timeout=10, max=50',
+112 silly registry.get     connection: 'Keep-Alive' } ]
+113 verbose etag https://registry.npmjs.org/gulp-browserify from cache
+114 silly addNameRange number 2 { name: 'gulp-browserify', range: '*', hasData: true }
+115 silly addNameRange versions [ 'gulp-browserify',
+115 silly addNameRange   [ '0.1.0',
+115 silly addNameRange     '0.1.1',
+115 silly addNameRange     '0.1.2',
+115 silly addNameRange     '0.2.2',
+115 silly addNameRange     '0.2.3',
+115 silly addNameRange     '0.2.4',
+115 silly addNameRange     '0.2.5',
+115 silly addNameRange     '0.2.6',
+115 silly addNameRange     '0.2.7',
+115 silly addNameRange     '0.3.0',
+115 silly addNameRange     '0.3.1',
+115 silly addNameRange     '0.3.2',
+115 silly addNameRange     '0.3.3',
+115 silly addNameRange     '0.3.4',
+115 silly addNameRange     '0.4.0',
+115 silly addNameRange     '0.4.1',
+115 silly addNameRange     '0.4.2',
+115 silly addNameRange     '0.4.3',
+115 silly addNameRange     '0.4.4',
+115 silly addNameRange     '0.4.5',
+115 silly addNameRange     '0.4.6',
+115 silly addNameRange     '0.5.0' ] ]
+116 verbose addNamed [ 'gulp-browserify', '0.5.0' ]
+117 verbose addNamed [ '0.5.0', '0.5.0' ]
+118 silly lockFile 29ca95c5-gulp-browserify-0-5-0 gulp-browserify@0.5.0
+119 verbose lock gulp-browserify@0.5.0 C:\Users\iluxa_000\AppData\Roaming\npm-cache\29ca95c5-gulp-browserify-0-5-0.lock
+120 warn deprecated gulp-browserify@0.5.0: package is no longer maintained
+121 silly lockFile 29ca95c5-gulp-browserify-0-5-0 gulp-browserify@0.5.0
+122 silly lockFile 29ca95c5-gulp-browserify-0-5-0 gulp-browserify@0.5.0
+123 http 304 https://registry.npmjs.org/reactify
+124 silly registry.get cb [ 304,
+124 silly registry.get   { date: 'Thu, 01 Jan 2015 22:30:46 GMT',
+124 silly registry.get     server: 'Apache',
+124 silly registry.get     via: '1.1 varnish',
+124 silly registry.get     'last-modified': 'Thu, 01 Jan 2015 22:30:46 GMT',
+124 silly registry.get     'cache-control': 'max-age=60',
+124 silly registry.get     etag: '"2WOOSBFGOSOKWKS337QI6XKR0"',
+124 silly registry.get     age: '0',
+124 silly registry.get     'x-served-by': 'cache-lcy1127-LCY',
+124 silly registry.get     'x-cache': 'HIT',
+124 silly registry.get     'x-cache-hits': '1',
+124 silly registry.get     'x-timer': 'S1420151446.595737,VS0,VE347',
+124 silly registry.get     vary: 'Accept',
+124 silly registry.get     'content-length': '0',
+124 silly registry.get     'keep-alive': 'timeout=10, max=50',
+124 silly registry.get     connection: 'Keep-Alive' } ]
+125 verbose etag https://registry.npmjs.org/reactify from cache
+126 silly lockFile 2f84a5e9-gulp-browserify gulp-browserify@*
+127 silly lockFile 2f84a5e9-gulp-browserify gulp-browserify@*
+128 http 200 https://registry.npmjs.org/gulp
+129 silly registry.get cb [ 200,
+129 silly registry.get   { date: 'Thu, 01 Jan 2015 22:30:46 GMT',
+129 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+129 silly registry.get     etag: '"41RLYIX94SYUKFH93JWVEMI4S"',
+129 silly registry.get     'content-type': 'application/json',
+129 silly registry.get     'cache-control': 'max-age=60',
+129 silly registry.get     'content-length': '96731',
+129 silly registry.get     'accept-ranges': 'bytes',
+129 silly registry.get     via: '1.1 varnish',
+129 silly registry.get     age: '2',
+129 silly registry.get     'x-served-by': 'cache-lcy1120-LCY',
+129 silly registry.get     'x-cache': 'HIT',
+129 silly registry.get     'x-cache-hits': '1',
+129 silly registry.get     'x-timer': 'S1420151446.605771,VS0,VE0',
+129 silly registry.get     vary: 'Accept',
+129 silly registry.get     'keep-alive': 'timeout=10, max=50',
+129 silly registry.get     connection: 'Keep-Alive' } ]
+130 silly addNameRange number 2 { name: 'gulp', range: '*', hasData: true }
+131 silly addNameRange versions [ 'gulp',
+131 silly addNameRange   [ '0.0.1',
+131 silly addNameRange     '0.0.2',
+131 silly addNameRange     '0.0.3',
+131 silly addNameRange     '0.0.4',
+131 silly addNameRange     '0.0.5',
+131 silly addNameRange     '0.0.7',
+131 silly addNameRange     '0.0.8',
+131 silly addNameRange     '0.0.9',
+131 silly addNameRange     '0.1.0',
+131 silly addNameRange     '0.2.0',
+131 silly addNameRange     '1.0.0',
+131 silly addNameRange     '1.1.0',
+131 silly addNameRange     '1.2.0',
+131 silly addNameRange     '1.2.1',
+131 silly addNameRange     '2.0.0',
+131 silly addNameRange     '2.0.1',
+131 silly addNameRange     '2.1.0',
+131 silly addNameRange     '2.2.0',
+131 silly addNameRange     '2.3.0',
+131 silly addNameRange     '2.4.0',
+131 silly addNameRange     '2.4.1',
+131 silly addNameRange     '2.6.0',
+131 silly addNameRange     '2.6.1',
+131 silly addNameRange     '2.7.0',
+131 silly addNameRange     '3.0.0',
+131 silly addNameRange     '3.1.1',
+131 silly addNameRange     '3.1.2',
+131 silly addNameRange     '3.1.3',
+131 silly addNameRange     '3.1.4',
+131 silly addNameRange     '3.2.0',
+131 silly addNameRange     '3.2.1',
+131 silly addNameRange     '3.2.2',
+131 silly addNameRange     '3.2.3',
+131 silly addNameRange     '3.2.4',
+131 silly addNameRange     '3.2.5',
+131 silly addNameRange     '3.3.0',
+131 silly addNameRange     '3.3.1',
+131 silly addNameRange     '3.3.2',
+131 silly addNameRange     '3.3.4',
+131 silly addNameRange     '3.4.0',
+131 silly addNameRange     '3.5.0',
+131 silly addNameRange     '3.5.1',
+131 silly addNameRange     '3.5.2',
+131 silly addNameRange     '3.5.5',
+131 silly addNameRange     '3.5.6',
+131 silly addNameRange     '3.6.0',
+131 silly addNameRange     '3.6.1',
+131 silly addNameRange     '3.6.2',
+131 silly addNameRange     '3.7.0',
+131 silly addNameRange     '3.8.0',
+131 silly addNameRange     '3.8.1',
+131 silly addNameRange     '3.8.2',
+131 silly addNameRange     '3.8.3',
+131 silly addNameRange     '3.8.4',
+131 silly addNameRange     '3.8.5',
+131 silly addNameRange     '3.8.6',
+131 silly addNameRange     '3.8.7',
+131 silly addNameRange     '3.8.8',
+131 silly addNameRange     '3.8.9',
+131 silly addNameRange     '3.8.10' ] ]
+132 verbose addNamed [ 'gulp', '3.8.10' ]
+133 verbose addNamed [ '3.8.10', '3.8.10' ]
+134 silly lockFile f843d0d7-gulp-3-8-10 gulp@3.8.10
+135 verbose lock gulp@3.8.10 C:\Users\iluxa_000\AppData\Roaming\npm-cache\f843d0d7-gulp-3-8-10.lock
+136 silly addNameRange number 2 { name: 'reactify', range: '*', hasData: true }
+137 silly addNameRange versions [ 'reactify',
+137 silly addNameRange   [ '0.1.0',
+137 silly addNameRange     '0.1.1',
+137 silly addNameRange     '0.1.2',
+137 silly addNameRange     '0.1.3',
+137 silly addNameRange     '0.1.4',
+137 silly addNameRange     '0.2.0',
+137 silly addNameRange     '0.2.1',
+137 silly addNameRange     '0.2.2',
+137 silly addNameRange     '0.3.0',
+137 silly addNameRange     '0.3.1',
+137 silly addNameRange     '0.3.2',
+137 silly addNameRange     '0.4.0',
+137 silly addNameRange     '0.5.0',
+137 silly addNameRange     '0.5.1',
+137 silly addNameRange     '0.6.0',
+137 silly addNameRange     '0.6.1',
+137 silly addNameRange     '0.7.0',
+137 silly addNameRange     '0.8.0',
+137 silly addNameRange     '0.8.1',
+137 silly addNameRange     '0.9.0',
+137 silly addNameRange     '0.9.1',
+137 silly addNameRange     '0.10.0',
+137 silly addNameRange     '0.11.0',
+137 silly addNameRange     '0.12.0',
+137 silly addNameRange     '0.13.0',
+137 silly addNameRange     '0.13.1',
+137 silly addNameRange     '0.14.0',
+137 silly addNameRange     '0.15.0',
+137 silly addNameRange     '0.15.1',
+137 silly addNameRange     '0.14.1',
+137 silly addNameRange     '0.8.2',
+137 silly addNameRange     '0.9.2',
+137 silly addNameRange     '0.10.1',
+137 silly addNameRange     '0.11.1',
+137 silly addNameRange     '0.13.2',
+137 silly addNameRange     '0.12.1',
+137 silly addNameRange     '0.15.2',
+137 silly addNameRange     '0.16.0',
+137 silly addNameRange     '0.17.0',
+137 silly addNameRange     '0.17.1' ] ]
+138 verbose addNamed [ 'reactify', '0.17.1' ]
+139 verbose addNamed [ '0.17.1', '0.17.1' ]
+140 silly lockFile 7a84788b-reactify-0-17-1 reactify@0.17.1
+141 verbose lock reactify@0.17.1 C:\Users\iluxa_000\AppData\Roaming\npm-cache\7a84788b-reactify-0-17-1.lock
+142 silly lockFile 7a84788b-reactify-0-17-1 reactify@0.17.1
+143 silly lockFile 7a84788b-reactify-0-17-1 reactify@0.17.1
+144 silly lockFile f843d0d7-gulp-3-8-10 gulp@3.8.10
+145 silly lockFile f843d0d7-gulp-3-8-10 gulp@3.8.10
+146 silly lockFile 800a638d-reactify reactify@*
+147 silly lockFile 800a638d-reactify reactify@*
+148 silly lockFile 51046861-gulp gulp@*
+149 silly lockFile 51046861-gulp gulp@*
+150 http 304 https://registry.npmjs.org/react
+151 silly registry.get cb [ 304,
+151 silly registry.get   { date: 'Thu, 01 Jan 2015 22:30:46 GMT',
+151 silly registry.get     server: 'Apache',
+151 silly registry.get     via: '1.1 varnish',
+151 silly registry.get     'last-modified': 'Thu, 01 Jan 2015 22:30:47 GMT',
+151 silly registry.get     'cache-control': 'max-age=60',
+151 silly registry.get     etag: '"BSYVO92WDX9X09UZFYCB2AR4"',
+151 silly registry.get     age: '0',
+151 silly registry.get     'x-served-by': 'cache-lcy1120-LCY',
+151 silly registry.get     'x-cache': 'HIT',
+151 silly registry.get     'x-cache-hits': '1',
+151 silly registry.get     'x-timer': 'S1420151446.594635,VS0,VE640',
+151 silly registry.get     vary: 'Accept',
+151 silly registry.get     'content-length': '0',
+151 silly registry.get     'keep-alive': 'timeout=10, max=50',
+151 silly registry.get     connection: 'Keep-Alive' } ]
+152 verbose etag https://registry.npmjs.org/react from cache
+153 silly addNameRange number 2 { name: 'react', range: '*', hasData: true }
+154 silly addNameRange versions [ 'react',
+154 silly addNameRange   [ '0.0.1',
+154 silly addNameRange     '0.0.2',
+154 silly addNameRange     '0.0.3',
+154 silly addNameRange     '0.1.2',
+154 silly addNameRange     '0.2.0',
+154 silly addNameRange     '0.2.1',
+154 silly addNameRange     '0.2.2',
+154 silly addNameRange     '0.2.3',
+154 silly addNameRange     '0.2.4',
+154 silly addNameRange     '0.2.5',
+154 silly addNameRange     '0.2.6',
+154 silly addNameRange     '0.3.0',
+154 silly addNameRange     '0.3.4',
+154 silly addNameRange     '0.3.5',
+154 silly addNameRange     '0.5.0',
+154 silly addNameRange     '0.5.1',
+154 silly addNameRange     '0.5.2',
+154 silly addNameRange     '0.6.0',
+154 silly addNameRange     '0.6.1',
+154 silly addNameRange     '0.6.2',
+154 silly addNameRange     '0.6.3',
+154 silly addNameRange     '0.7.0',
+154 silly addNameRange     '0.7.1',
+154 silly addNameRange     '0.8.0',
+154 silly addNameRange     '0.9.0-rc1',
+154 silly addNameRange     '0.9.0',
+154 silly addNameRange     '0.10.0-rc1',
+154 silly addNameRange     '0.10.0',
+154 silly addNameRange     '0.11.0-rc1',
+154 silly addNameRange     '0.11.0',
+154 silly addNameRange     '0.11.1',
+154 silly addNameRange     '0.11.2',
+154 silly addNameRange     '0.12.0-rc1',
+154 silly addNameRange     '0.12.0',
+154 silly addNameRange     '0.12.1',
+154 silly addNameRange     '0.12.2',
+154 silly addNameRange     '0.13.0-alpha.1' ] ]
+155 verbose addNamed [ 'react', '0.12.2' ]
+156 verbose addNamed [ '0.12.2', '0.12.2' ]
+157 silly lockFile 1f2cec02-react-0-12-2 react@0.12.2
+158 verbose lock react@0.12.2 C:\Users\iluxa_000\AppData\Roaming\npm-cache\1f2cec02-react-0-12-2.lock
+159 silly lockFile 1f2cec02-react-0-12-2 react@0.12.2
+160 silly lockFile 1f2cec02-react-0-12-2 react@0.12.2
+161 silly lockFile 7369d070-react react@*
+162 silly lockFile 7369d070-react react@*
+163 error notarget No compatible version found: gulp-concat@'*0'
+163 error notarget Valid install targets:
+163 error notarget ["0.0.1","1.0.0","1.1.0","2.0.0","2.1.0","2.1.1","2.1.2","2.1.3","2.1.4","2.1.5","2.1.6","2.1.7","2.2.0","2.3.0","2.3.3","2.3.4","2.3.5","2.4.0","2.4.1","2.4.2","2.4.3"]
+163 error notarget
+163 error notarget This is most likely not a problem with npm itself.
+163 error notarget In most cases you or one of your dependencies are requesting
+163 error notarget a package version that doesn't exist.
+164 error System Windows_NT 6.2.9200
+165 error command "c:\\Program Files\\nodejs\\node.exe" "c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+166 error cwd z:\Dropbox\GIT\ReactFlux
+167 error node -v v0.10.33
+168 error npm -v 1.4.28
+169 error code ETARGET
+170 verbose exit [ 1, true ]
