@@ -20624,7 +20624,8 @@ var APP = React.createClass({displayName: "APP",
     render: function() {
         console.log('items', this.props);
         return React.createElement("div", null,
-            React.createElement("a", {href:'/about'},'kakakakaka'),
+            React.createElement("p", null,
+                React.createElement("a", {href:'/about/it works'},'Link to about page with :me parameter "it works!"')),
             React.createElement("h1", null),
             React.createElement(Catalog, {items: this.state.items}),
             React.createElement(Cart, null)
@@ -20905,6 +20906,8 @@ var EventEmitter = require('events').EventEmitter;
 var CHANGE_EVENT = "change";
 var globals = require('../../../src/js/global');
 
+
+// CATALOG SERVICE THAT SHOULD HANDLE THE CRUD OPERATION 
 var _catalog = [];
 remote.get(function(data) {
     _catalog = data;
@@ -20960,8 +20963,13 @@ function _addItem(item) {
     console.timeEnd('_addItem');
 }
 
+//END OF - CATALOG SERVICE THAT SHOULD HANDLE THE CRUD OPERATION 
 
+
+//STORE
 var AppStore = merge(EventEmitter.prototype, {
+
+    // PUBLIC INTERFACE EXPOSED TO COMPONENTS
     emitChange: function() {
         this.emit(CHANGE_EVENT)
     },
@@ -20993,6 +21001,10 @@ var AppStore = merge(EventEmitter.prototype, {
         return _catalog.length;
     },
 
+    //END OF -  PUBLIC INTERFACE EXPOSED TO COMPONENTS
+
+
+    // ACTION COMMMAND HANDLER
     dispatcherIndex: AppDispatcher.register(function(payload) {
         var action = payload.action; // this is our action from handleViewAction
         switch (action.actionType) {
@@ -21015,6 +21027,9 @@ var AppStore = merge(EventEmitter.prototype, {
                 AppStore.getCatalog(payload.action.paging.skip);
                 break;
         }
+
+
+        // !!!! ALWAYS BROADCAST ANY CHANGE TO ALL SUBSCRIBED COMPONENTS
         AppStore.emitChange();
 
         return true;

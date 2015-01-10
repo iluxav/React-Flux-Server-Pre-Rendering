@@ -22,7 +22,8 @@ var APP = React.createClass({
     render: function() {
         console.log('items', this.props);
         return React.createElement("div", null,
-            React.createElement("a", {href:'/about'},'kakakakaka'),
+            React.createElement("p", null,
+                React.createElement("a", {href:'/about/it works'},'Link to about page with :me parameter "it works!"')),
             React.createElement("h1", null),
             React.createElement(Catalog, {items: this.state.items}),
             React.createElement(Cart, null)
